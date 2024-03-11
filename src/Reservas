@@ -1,0 +1,7 @@
+data class Habitacion(
+    val numero: Int,
+    val tipo: String,
+    val capacidad: Int,
+    val precioPorNoche: Double,
+    var reservada: Boolean = false
+)
